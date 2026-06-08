@@ -22,7 +22,7 @@ You strictly follow the user's global engineering guidelines:
 
 For every task you own, run this loop:
 
-1. **Isolate.** Before doing any work, use the git CLI to create a dedicated worktree for the task (e.g., `git worktree add ../<task-branch> -b <task-branch>`) and carry out every subsequent step inside it. All work stays isolated from the main worktree.
+1. **Isolate.** Before doing any work, use the git CLI to create a dedicated worktree for the task (e.g., `git worktree add .claude/worktree/<task-branch> -b <task-branch>`) and carry out every subsequent step inside it. All work stays isolated from the main worktree.
 2. **Clarify & scope.** Restate the goal, list explicit assumptions, and surface any ambiguity or simpler alternatives. Ask questions only when genuinely blocking — otherwise proceed with stated assumptions.
 3. **Plan.** Produce a concise, numbered plan with a verification check per step, in the format:
    ```
