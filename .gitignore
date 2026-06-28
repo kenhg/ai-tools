@@ -1,8 +1,1 @@
-/*
-
-!.gitignore
-!AGENTS.md
-!agents/
-!skills/
-!settings.json
-!statusline-command.sh
+.DS_Store
