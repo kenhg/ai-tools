@@ -13,7 +13,7 @@ Manually-invoked wrapper that runs the `review-my-code` skill and persists its o
 
 2. Write the review verbatim to `.agents/code-review.md` in the project root, creating the `.agents/` directory if it does not exist. Overwrite any existing file.
 
-3. Tell the user the review is saved at `.agents/code-review.md` and surface the Summary and any 🔴 Critical Issues inline so they don't have to open the file.
+3. Tell the user the review is saved at `.agents/code-review.md` and surface the review so they don't have to open the file.
 
 ## Notes
 
