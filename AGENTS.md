@@ -22,7 +22,9 @@ Before implementing:
 - No error handling for impossible scenarios.
 - If you write 200 lines and it could be 50, rewrite it.
 - No em dashes (—), use - instead.
-- No unnecessary code comments. If the code itself explains its purpose and functionality sufficiently, then omit code comments. Prefer self-explainatory function names.
+- Prefer self-explainatory function names.
+- Code comments should only include design decisions or domain specific knowledge, not what a block of code does.
+- If the code itself explains its purpose and functionality sufficiently, then omit comments.
 
 Ask yourself: "Would a senior engineer say this is overcomplicated?" If yes, simplify.
 
